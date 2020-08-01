@@ -1,0 +1,11 @@
+.Follow {	  
+	
+	bottom: 9px;
+	right: 20px;
+	display:block;
+	position:fixed;
+	color: white;
+	z-index:999;
+    }
+    
+    

@@ -1,0 +1,244 @@
+.responsive-img {
+  width: 99%;
+  height: auto;
+}
+
+.responsive-img-1 {
+  border-radius: 12px;
+}
+
+.responsive-img-1:hover {
+  border: white 1px solid;
+}
+@media screen and (min-width: 360px) {
+  .resp-text-md {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .resp-text {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .resp-text-5s {
+    margin-top: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .text-mm {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .text-mm-5s {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .text-mm-5s-btn {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .btn-div {
+    height: auto;
+  }
+}
+
+.btn-n {
+  color: rgb(212, 212, 212);
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #513f83, #604b9b);
+  box-shadow:  5px 5px 10px #4d3c7b, 
+               -5px -5px 10px #6851a7;
+}
+
+.btn-n:hover {
+  border-radius: 10px;
+  background: #513f83;
+  box-shadow: inset 5px 5px 10px #2d2349, 
+              inset -5px -5px 10px #755bbd;
+}
+
+@media screen and (min-width: 568px) {
+  .text-mm-r {
+    font-size: 20px;
+  }
+}
+
+.font-s {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: rgb(194, 194, 194);
+  font-size: 18px;
+}
+
+.bg {
+
+  background-position: 10px;
+  opacity: 0.8;
+}
+
+.img-neumorphism {
+  border-radius: 35px;
+  background: linear-gradient(145deg, #513f83, #604b9b);
+box-shadow:  5px 5px 10px #4d3c7b, 
+             -5px -5px 10px #6851a7;
+}
+
+
+
+
+
+
+
+
+
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #5a4691;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.p-img {
+  opacity: 0.5;
+}
+
+
+
+#list {
+  position: relative;
+  list-style: none;
+  margin: 50px 0 0 -20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#list:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 75%;
+  height: 15px;
+  background-color:  rgb(42, 3, 80); 
+}
+
+#list:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color:  rgb(206, 201, 197);
+ 
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+#list.html:after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+      width: 70%;
+  }
+}
+
+#list.css:after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+      width: 70%;
+  }
+}
+
+#list.js:after {
+  animation-name: js;
+}
+
+@keyframes js {
+  to {
+      width: 65%;
+  }
+}
+
+#list.ts:after {
+  animation-name: ts;
+}
+
+@keyframes ts {
+  to {
+      width: 60%;
+  }
+}
+
+#list.ng:after {
+  animation-name: ng;
+}
+
+@keyframes ng {
+  to {
+      width: 65%;
+  }
+}
+
+#list.mdb:after {
+  animation-name: mdb;
+}
+
+@keyframes mdb {
+  to {
+      width: 70%;
+  }
+}
+
+#list.ms:after {
+  animation-name: ms;
+}
+
+@keyframes ms {
+  to {
+      width: 65%;
+  }
+}
+
+#list.py:after {
+  animation-name: py;
+}
+
+@keyframes py {
+  to {
+      width: 60%;
+  }
+}
+
+#list.node:after {
+  animation-name: node;
+}
+
+@keyframes node {
+  to {
+      width: 60%;
+  }
+}
