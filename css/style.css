@@ -32,13 +32,13 @@
 
 @media screen and (max-width: 640px) {
   .text-mm {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .text-mm-5s {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -83,7 +83,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: rgb(194, 194, 194);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .bg {
@@ -138,7 +138,7 @@ html{
   left: 0;
   width: 75%;
   height: 15px;
-  background-color:  rgb(42, 3, 80); 
+  background-color:  rgb(146, 145, 145); 
 }
 
 #list:after {
@@ -148,7 +148,7 @@ html{
   left: 0;
   width: 0;
   height: 15px;
-  background-color:  rgb(206, 201, 197);
+  background-color:  rgb(231, 228, 225);
  
   animation-duration: .7s;
   animation-timing-function: ease;
@@ -243,4 +243,29 @@ html{
   to {
       width: 60%;
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(126, 126, 126);
+  color: white;
+  text-align: center;
+}
+
+.contact > a > img{
+  width: 30px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.contact>a{
+  margin-right:50px ;
+  font-weight: 600;
+  color: #1e1e1e;
 }
