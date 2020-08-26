@@ -99,9 +99,25 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 40px;
+  font-size: 2vh;
+  
 }
+
+@media screen and (max-width: 1280px) {
+  .about-me-para-xs {
+    line-height: 15px;
+  }
+}
+
+
+@media screen and (min-width: 1920px) {
+  .skill-list-div-xs > ul > li {
+    padding-bottom: 20px;
+  padding-top: 20px;
+  }
+}
+
+
 
 .about-me-head {
   color: #ffffff;
@@ -110,7 +126,7 @@
   font-style: normal;
   font-weight: bolder;
   font-size: 36px;
-  line-height: 44px;
+  
 }
 
 .skill-list-div {
@@ -118,8 +134,8 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2vh;
+  
 }
 
 .skill-list-div > ul {
@@ -127,8 +143,8 @@
 }
 
 .skill-list-div > ul > li {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 .skill-list-div > ul > li:hover {
   animation: pulse;
@@ -143,16 +159,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 29px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .skill-div {
   position: absolute;
   width: 100vw;
-  height: 500vh;
+  height: 300vh;
   left: 0px;
-  top: 10vh;
+  top: 15vh;
   transition: top 1s;
   background: #292929;
   border-radius: 70px 70px 0px 0px;
