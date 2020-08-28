@@ -109,6 +109,11 @@
   }
 }
 
+@media screen and (min-width: 360px) {
+  .about-me-para-md {
+    line-height: 30px;
+  }
+}
 
 @media screen and (min-width: 1920px) {
   .skill-list-div-xs > ul > li {
