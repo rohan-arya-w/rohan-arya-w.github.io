@@ -1,316 +1,900 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Rohan Arya</title>
-  <script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
-  <script src="/path/to/fastclick.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <script src="/src/jquery.fullpage.js"></script>
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="css/tuesday.min.css" />
-  <link rel="stylesheet" href="css/onepage.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8" />
+	<title>Rohan Arya</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/text.css" />
+	<link rel="stylesheet" href="css/docSlider.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="src/docSlider.min.js"></script>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
-  <ul class="onepage-pagination">
-    <li><a data-index="1" href="#1" class="nav"></a></li>
-    <li><a data-index="2" href="#2" class="nav"></a></li>
-    <li><a data-index="3" href="#3" class="nav"></a></li>
-    <li><a data-index="4" href="#4" class="nav"></a></li>
-  </ul>
-  <div id="fullpage">
-    <section id="m">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <div class="offset-1">
-              <img src="img/Id_card.png" class="responsive-img" />
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="footer contact">
-              <a href="https://github.com/rohan-arya-w" target="_blank">
-                <span class="iconify" data-inline="false" data-icon="ant-design:github-filled"
-                  style="color: #ffffff; font-size: 24px;"></span>
-                <span class="ml-2"></span></a>
-              <a href="mailto: rohan.arya237@gmail.com" target="_blank"><span class="iconify" data-inline="false"
-                  data-icon="feather:mail" style="font-size: 24px;"></span><span class="ml-2"></span>
-              </a>
-              <a href="https://www.linkedin.com/in/rohan-arya-b93591110/" target="_blank"><span class="iconify" data-inline="false"
-                  data-icon="brandico:linkedin-rect" style="color: #ffffff; font-size: 24px;"></span><span
-                  class="ml-2"></span></a>
-            </div>
-            <div class="col-sm-12">
-              <div class="text-right"></div>
-            </div>
-            <div class="col-lg-12 col-sm-12">
-              <div class="row">
-                <div class="col-sm-12 textarea">
-                  <h1 class="text-white text-mm text-mm-5s" style="font-family: Montserrat ;">
-                    Hello, I'm
-                    <span style="color: #977edf;" class="text-mm text-mm-5s">
-                      Rohan Arya,
-                    </span>
-                  </h1>
-                  <h3 id="Type" onload="typeWriter()" class="text-white text-mm text-mm-5s typewriter"
-                    style="font-family: Montserrat, sans-serif;"></h3>
-                  <div class="force-inline">
-                    <a class="btn mt-4 btn-n btn-div text-mm-5s-btn mr-4"
-                      href="img/Document from Rohan Arya.pdf">Download resume</a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+	<div class="docSlider">
+		<section id="one">
+			<div class="title">
+				<div class="content-1">
+					<P class="text-title">Hello, I'm <span style="color: #7045A6; font-weight: 600;">Rohan Arya,</span>
+					</P>
+					<p class="tag-text">Full-stack Developer</p>
 
-    <section style="background: #977edf;">
-      <!-- about me -->
-      <div class="container-fluid">
+				</div>
+				<div class="contact-details">
+					<a href=""><img src="img/Download btn.png" alt="" srcset=""></a>
 
+				</div>
+				<div class="contact-details-1">
+					<ul class="connect-with-me">
+						<li id="title" style="position: relative; bottom: 10px;">connect with me</li>
+						<li><a href="https://www.linkedin.com/in/rohan-arya-b93591110/" target="_blank">
+							<span class="iconify" data-inline="false" data-icon="ant-design:linkedin-filled"
+							style="font-size: 32px; color: black;"></span>
+						</a></li>
+						<li><a href="https://www.instagram.com/rohan_arya0737/" target="_BLANK">
 
-        <div class="row ">
-          <div class="col-lg-6 offset-lg-3 col-sm-12 ">
-            <div style="position: relative; margin-top: 10vh;">
-              <div class="about-me-head animate-about">
-                <p>About me</p>
-              </div>
-              <p class="about-me-para about-me-para-xs about-me-para-md">
-                I am a fresh graduate in Electronics and Communication
-                Engineering from SRM Institute of Science and Technology ,
-                currently living in Chennai and native of Jaipur With
-                favouritism in development stack of angular, mongodb, node js
-                and vanilla javascript. A competent and committed Web Design and
-                Development Graduate looking for a rewarding career in the
-                Information Technology sector.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+							<span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled"
+							style="font-size: 32px; color: black;" ></span>
+						</a>
+					</li>
+						<li>
+							<a href="mailto: rohan.arya237@gmail.com" target="_blank">
+								<span class="iconify" data-inline="false" data-icon="heroicons-solid:mail"
+								style="font-size: 37px; color: black;""></span></span>
+							</a>
+						</li>
+					</ul>
 
-      <div class="container-fluid">
-        <div class="row" style="position: relative; ">
-          <div class="skill-div animate-skills">
-            <div class="row" style="margin-top: 20px;">
-              <div class="col-lg-6 offset-lg-3 col-sm-12">
-                <div class=" form-inline ml-4">
-                  <div><span class="iconify" data-inline="false" data-icon="heroicons-solid:beaker"
-                      style="color: #b8b8b8; font-size: 54px;"></span></div>
-                  <div class="skills-head ml-2">
-                    <h1>Skills</h1>
-                  </div>
-                </div>
+				</div>
+				<div class="container-bg">
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
 
-                <div class="row">
-                  <di class="col-4 skill-list-div skill-list-div-xs">
-                    <ul>
-                      <li>Frontend</li>
-                      <li>
-                        <img src="img/javascript.png" alt="" srcset=""> javascript
-                      </li>
-                      <li>
-                        <img src="img/html.png" alt="">
-                        HTML
-                      </li>
-                      <li>
-                        <div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+					<div class="row-bg">
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<div class="hexagon"></div>
+						<!---16time)-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="two" style="background-color:#600CCB ;">
+			<div class="container-fluid">
+				<div class="background-svg-1">
+					<svg width="162" height="162" viewBox="0 0 162 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M158.976 161.653L160.166 121.144L119.646 121.996L120.833 81.4873L80.3165 82.3389L81.5034 41.8285L40.9887 42.6801L42.1739 2.16803L1.65368 3.01966" stroke="white" stroke-width="2" stroke-miterlimit="50"/>
+					</svg>
+				</div>
+				<div class="background-svg-2">
+					<svg width="300" height="322" viewBox="0 0 300 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g opacity="0.8">
+						<ellipse cx="170.671" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="170.671" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="128.335" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="128.335" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="43.6554" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="297.687" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="1.3156" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="255.343" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="43.6554" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="297.687" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="1.3156" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="255.343" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="213.007" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="213.007" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="85.9914" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="85.9914" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="43.6554" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="297.687" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="1.3156" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="255.343" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="43.6554" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="297.687" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="1.3156" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="255.343" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="213.007" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="213.007" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="170.671" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="170.671" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="128.335" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="128.335" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="170.671" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="128.335" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="43.6554" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="297.687" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="1.3156" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="255.343" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="213.007" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="85.9914" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="85.9914" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+						<ellipse cx="85.9914" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+						</g>
+						</svg>
+						
+				</div>
 
-                          <img src="img/css.png" alt=""> CSS
-                        </div>
-                      </li>
-                    </ul>
-                  </di>
-                  <div class="col-4 skill-list-div">
-                    <ul>
-                      <li>Backend</li>
-                      <li>
-                        <img src="img/python.png" alt="" srcset=""> python
-                      </li>
-                      <li>
-                        <img src="img/nodejs.png" alt="">
-                        Nodejs
-                      </li>
+				<div class="image-pc">
 
-                    </ul>
-                  </div>
-                  <div class="col-4 skill-list-div">
-                    <ul>
-                      <li>Framework</li>
-                      <li>
-                        <img src="img/angular.png" alt="" srcset=""> Angular-9
-                      </li>
+					<img src="img/picture_des.png" alt="">
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-sx-12 offset-lg-1 content-about">
+						<div class="about-me-h">
+							<H1 class="Heading-about">about me</H1>
+							<div class="Image-about">
+								<img src="img/picture_md.png" alt="" srcset="">
+							</div>
+							<p class="paragraph-about">I am a fresh graduate in Electronics and Communication
+								Engineering from
+								SRM Institute of Science and Technology ,currently living in Chennai and
+								native of Jaipur With favouritism in development stack of angular, mongodb,
+								node js and vanilla javascript.</p>
+								<h1 style="margin-top: 50px;"><span class="iconify" data-inline="false" data-icon="zondicons:education" style="color: #ffffff; font-size: 50px; position: relative; bottom: 0px"></span> <span style="position: relative; bottom: 10px" >Education</span> </h1>
+								<div style="margin-top: 50px;">
+									<svg width="10" height="422" viewBox="0 0 10 422" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<line x1="5.5" y1="0.00118768" x2="4.49997" y2="421.001" stroke="white"/>
+										
+										</svg>
+								</div>
+								<div class="education-details education-detail-md">
+									<p>2016 - 2020 <br>
+									SRM Institute of Science and Technology <br>
+									B.tech(ECE)</p>
 
-                    </ul>
-                    </di>
-                  </div>
-                </div>
-              </div>
-            </div>
+									<p >2015 - 2016 <br>
+										Saint Soldier Public School<br>
+										Class-XII</p>
 
+										<p>2013 - 2014 <br>
+											Seedling Modern High School<br>
+											Class-X</p>
+								</div>
+						</div>
 
-          </div>
-    </section>
+					</div>
 
+				</div>
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="icon-edu">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="three" style="background-color:#530EAB ;">
+		<div class="portfolio">
+			<div class="background-svg-3">
+				<svg width="300" height="322" viewBox="0 0 300 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.8">
+					<ellipse cx="170.671" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					</g>
+					</svg>
+					
+			</div>
 
-    <section >  
-      <div class="container mt-5" id="mywork">
-        <div class="row">
-          <div class="col-12 animate-about">
-            <h1 style="color: #ffffff;  font-family: Montserrat;">Portfolio</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-sx-12">
-            <div class="cards-projects1">
-              <div class="card-h">
-                <img src="img/coronavirus.png" width="100px" height="100px">
-              </div>
-              <div class="card-foot ">
-                <h5 class="hover-color">Covid-19 Visualizer</h5>
-                <p class="para-hover">Frame-work : angular
-                  <br>
-                  Language : javascript
-                </p>
-                <a class="project-button"  href="https://covid19-visualizer-rohan.netlify.app/" target="_blank">Live demo</a>
-                <a class="project-button"  href=" https://github.com/HR1Aventum/Covid19-visualizer" target="_blank">Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 col-sx-12">
-            <div class="cards-projects1">
-              <div class="card-h">
-                <img src="img/google-play-music.png" width="100px" height="100px">
-               
-              </div>
-              <div class="card-foot">
-                <h5  class="hover-color">Music-player</h5>
-                <p class="para-hover">Frame-work : angular
-                  <br>
-                  Language : javascript
-                </p>
-                
-                <a class="project-button" href="https://music-player-rohan.netlify.app/" target="_blank">Live demo</a>
-                <a class="project-button" href="https://github.com/HR1Aventum/Music_player" target="_blank">Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 col-sx-12">
-            <div class="cards-projects1">
-              <div class="card-h">
-                <img src="img/github.png" height="100px">
-              </div>
-              <div class="card-foot">
-                <h5 class="hover-color">Github-design</h5>
-                <p class="para-hover">Frame-work : vanilla javascript
-                  <br>
-                  Language : javascript
-                </p>
-                
-                <a class="project-button" href="https://priceless-wozniak-917654.netlify.app/" target="_blank">Live demo</a>
-                <a class="project-button"  href="https://github.com/HR1Aventum/Git_hub_Design" target="_blank">Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 col-sx-12">
-            <div class="cards-projects1">
-              <div class="card-h">
-                <img src="img/newspaper.png" width="100px" height="100px">
-              </div>
-              <div class="card-foot">
-                <h5 class="hover-color">News-app</h5>
-                <p class="para-hover">Frame-work : vanilla javascript
-                  <br>
-                  Language : javascript
-                </p>
-                
-                <a class="project-button" href="https://news-flash-b.herokuapp.com/" target="_blank">Live demo</a>
-                <a class="project-button" href="https://github.com/HR1Aventum/News_Api" target="_blank">Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 offset-lg-3 col-sx-12">
-            <div class="cards-projects1">
-              <div class="card-h">
-                <img src="img/weather.png" width="100px" height="100px">
-              </div>
-              <div class="card-foot">
-                <h5 class="hover-color">Weather app</h5>
-                <p class="para-hover">Frame-work : vanilla javascript <br>
-                  Language : javascript</p>
-                
-                <a class="project-button" href="https://weather-data-flag.herokuapp.com/" target="_blank">Live demo</a>
-                <a class="project-button" href="https://github.com/HR1Aventum/Weather_data" target="_blank">Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3  col-sx-12">
-            <div class="cards-projects1">
-              <div class="card-h">
-                <img src="img/monitor.png" width="100px" height="100px">
-              </div>
-              <div class="card-foot">
-                <h5 class="hover-color">Task-Manager app</h5>
-                <p class="para-hover">Frame-work : angular <br>
-                  Language : javascript</p>
-                
-                <a class="project-button"  href="https://task-manager-rohan.netlify.app/" target="_blank">Live demo</a>
-                <a class="project-button" href="https://github.com/HR1Aventum/Assesment-6" target="_blank">Github</a>
-              </div>
-            </div>
-          </div>
+			
+			<div class="background-svg-5">
+				<svg width="18" height="131" viewBox="0 0 18 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8.98675 114.183C11.0796 114.183 13.0867 115.014 14.5665 116.494C16.0464 117.974 16.8777 119.981 16.8777 122.074C16.8777 124.167 16.0464 126.174 14.5665 127.654C13.0867 129.133 11.0796 129.965 8.98675 129.965C6.89393 129.965 4.88682 129.133 3.40697 127.654C1.92712 126.174 1.09575 124.167 1.09575 122.074C1.09575 119.981 1.92712 117.974 3.40697 116.494C4.88682 115.014 6.89393 114.183 8.98675 114.183V114.183ZM8.98675 86.1138C10.0231 86.114 11.0494 86.3182 12.0068 86.715C12.9643 87.1117 13.8342 87.6931 14.5669 88.4261C15.2997 89.159 15.8809 90.0291 16.2774 90.9866C16.6739 91.9442 16.8779 92.9705 16.8778 94.0068C16.8776 95.0432 16.6734 96.0695 16.2766 97.0269C15.8799 97.9844 15.2985 98.8543 14.5655 99.587C13.8326 100.32 12.9625 100.901 12.005 101.297C11.0474 101.694 10.0211 101.898 8.98475 101.898C6.89166 101.898 4.88441 101.066 3.40456 99.5856C1.92471 98.1054 1.09348 96.0979 1.09375 94.0048C1.09402 91.9118 1.92575 89.9045 3.40597 88.4247C4.88619 86.9448 6.89366 86.1136 8.98675 86.1138ZM8.98675 58.0458C11.0796 58.0458 13.0867 58.8772 14.5665 60.3571C16.0464 61.8369 16.8777 63.844 16.8777 65.9368C16.8777 68.0297 16.0464 70.0368 14.5665 71.5166C13.0867 72.9965 11.0796 73.8278 8.98675 73.8278C6.89379 73.8278 4.88656 72.9964 3.40662 71.5165C1.92667 70.0365 1.09525 68.0293 1.09525 65.9363C1.09525 63.8434 1.92667 61.8362 3.40662 60.3562C4.88656 58.8763 6.89379 58.0448 8.98675 58.0448V58.0458ZM8.98675 29.9758C10.0306 29.9642 11.0663 30.1598 12.034 30.5512C13.0017 30.9427 13.8821 31.5222 14.6243 32.2563C15.3665 32.9903 15.9556 33.8643 16.3577 34.8276C16.7598 35.791 16.9667 36.8245 16.9666 37.8684C16.9664 38.9122 16.7592 39.9457 16.3569 40.9089C15.9546 41.8721 15.3652 42.746 14.6229 43.4799C13.8805 44.2137 12.9999 44.793 12.0321 45.1842C11.0643 45.5754 10.0285 45.7707 8.98475 45.7588C6.90718 45.7352 4.92275 44.8932 3.46207 43.4156C2.00139 41.938 1.18232 39.9441 1.18258 37.8664C1.18284 35.7887 2.00243 33.7949 3.46348 32.3176C4.92453 30.8404 6.90918 29.999 8.98675 29.9758V29.9758ZM8.98675 1.90784C11.0796 1.90784 13.0867 2.73921 14.5665 4.21906C16.0464 5.69891 16.8777 7.70602 16.8777 9.79884C16.8777 11.8917 16.0464 13.8988 14.5665 15.3786C13.0867 16.8585 11.0796 17.6898 8.98675 17.6898C6.89393 17.6898 4.88682 16.8585 3.40697 15.3786C1.92712 13.8988 1.09575 11.8917 1.09575 9.79884C1.09575 7.70602 1.92712 5.69891 3.40697 4.21906C4.88682 2.73921 6.89393 1.90784 8.98675 1.90784V1.90784Z" stroke="white" stroke-width="2" stroke-miterlimit="50"/>
+					</svg>
+					
+					
+			</div>
 
-        </div>
-      </div>
+			<div class="background-svg-4">
+				<svg width="300" height="322" viewBox="0 0 300 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.8">
+					<ellipse cx="170.671" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					</g>
+					</svg>
+					
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 skills-sec">
+						
+						<h1>Techincal Skills</h1>
 
-    </section>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row padding-md" style="margin-top: 100px;" >
+						<div class="col-lg-4 col-sm-12" style="text-align: center;">
+							<span class="iconify" data-inline="false" data-icon="bx:bx-code-block" style="color: #ffffff; font-size: 52px;"></span>
+							<p class="text-skills">JavaScript,  TypeScript,
+								Python,   HTML and CSS</p>
+						</div>
+						<div class="col-lg-4 col-sm-12" style="text-align: center;">
+							<span class="iconify" data-inline="false" data-icon="bi:gear-fill" style="font-size: 52px; color: #ffffff;"></span>
+							<p class="text-skills">
+								Angular,React.js and Node.js
+	
+							</p>
+						</div>
+						<div class="col-lg-4 col-sm-12" style="text-align: center;">
+							<span class="iconify" data-inline="false" data-icon="jam:tools-f" style="font-size: 52px; color: #ffffff;"></span>
+							<p class="text-skills">
+								MySQL/PostgreSQL ,MongoDB,  FireBase, Postman,AWS and GIT
+							</p>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 100px;">
+						<div class="col-lg-12 size-font col-sm-12" style="text-align: center;">
+							<span class="iconify" data-inline="false" data-icon="jam:tools-f" style="font-size: 52px; color: #ffffff;"></span>
+							<p class="text-skills ">
+								Figma , illustrator (basic)
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		</section>
+		<section id="four" style="background-color:#420D86 ;">
+		<div class="container">
+			<div class="background-svg-4">
+				<svg width="300" height="322" viewBox="0 0 300 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.8">
+					<ellipse cx="170.671" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					</g>
+					</svg>
+					
+			</div>
+			<div class="background-svg-5">
+				<svg width="18" height="131" viewBox="0 0 18 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8.98675 114.183C11.0796 114.183 13.0867 115.014 14.5665 116.494C16.0464 117.974 16.8777 119.981 16.8777 122.074C16.8777 124.167 16.0464 126.174 14.5665 127.654C13.0867 129.133 11.0796 129.965 8.98675 129.965C6.89393 129.965 4.88682 129.133 3.40697 127.654C1.92712 126.174 1.09575 124.167 1.09575 122.074C1.09575 119.981 1.92712 117.974 3.40697 116.494C4.88682 115.014 6.89393 114.183 8.98675 114.183V114.183ZM8.98675 86.1138C10.0231 86.114 11.0494 86.3182 12.0068 86.715C12.9643 87.1117 13.8342 87.6931 14.5669 88.4261C15.2997 89.159 15.8809 90.0291 16.2774 90.9866C16.6739 91.9442 16.8779 92.9705 16.8778 94.0068C16.8776 95.0432 16.6734 96.0695 16.2766 97.0269C15.8799 97.9844 15.2985 98.8543 14.5655 99.587C13.8326 100.32 12.9625 100.901 12.005 101.297C11.0474 101.694 10.0211 101.898 8.98475 101.898C6.89166 101.898 4.88441 101.066 3.40456 99.5856C1.92471 98.1054 1.09348 96.0979 1.09375 94.0048C1.09402 91.9118 1.92575 89.9045 3.40597 88.4247C4.88619 86.9448 6.89366 86.1136 8.98675 86.1138ZM8.98675 58.0458C11.0796 58.0458 13.0867 58.8772 14.5665 60.3571C16.0464 61.8369 16.8777 63.844 16.8777 65.9368C16.8777 68.0297 16.0464 70.0368 14.5665 71.5166C13.0867 72.9965 11.0796 73.8278 8.98675 73.8278C6.89379 73.8278 4.88656 72.9964 3.40662 71.5165C1.92667 70.0365 1.09525 68.0293 1.09525 65.9363C1.09525 63.8434 1.92667 61.8362 3.40662 60.3562C4.88656 58.8763 6.89379 58.0448 8.98675 58.0448V58.0458ZM8.98675 29.9758C10.0306 29.9642 11.0663 30.1598 12.034 30.5512C13.0017 30.9427 13.8821 31.5222 14.6243 32.2563C15.3665 32.9903 15.9556 33.8643 16.3577 34.8276C16.7598 35.791 16.9667 36.8245 16.9666 37.8684C16.9664 38.9122 16.7592 39.9457 16.3569 40.9089C15.9546 41.8721 15.3652 42.746 14.6229 43.4799C13.8805 44.2137 12.9999 44.793 12.0321 45.1842C11.0643 45.5754 10.0285 45.7707 8.98475 45.7588C6.90718 45.7352 4.92275 44.8932 3.46207 43.4156C2.00139 41.938 1.18232 39.9441 1.18258 37.8664C1.18284 35.7887 2.00243 33.7949 3.46348 32.3176C4.92453 30.8404 6.90918 29.999 8.98675 29.9758V29.9758ZM8.98675 1.90784C11.0796 1.90784 13.0867 2.73921 14.5665 4.21906C16.0464 5.69891 16.8777 7.70602 16.8777 9.79884C16.8777 11.8917 16.0464 13.8988 14.5665 15.3786C13.0867 16.8585 11.0796 17.6898 8.98675 17.6898C6.89393 17.6898 4.88682 16.8585 3.40697 15.3786C1.92712 13.8988 1.09575 11.8917 1.09575 9.79884C1.09575 7.70602 1.92712 5.69891 3.40697 4.21906C4.88682 2.73921 6.89393 1.90784 8.98675 1.90784V1.90784Z" stroke="white" stroke-width="2" stroke-miterlimit="50"/>
+					</svg>		
+			</div>
+			<div class="background-svg-1">
+				<svg width="162" height="162" viewBox="0 0 162 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M158.976 161.653L160.166 121.144L119.646 121.996L120.833 81.4873L80.3165 82.3389L81.5034 41.8285L40.9887 42.6801L42.1739 2.16803L1.65368 3.01966" stroke="white" stroke-width="2" stroke-miterlimit="50"/>
+				</svg>
+			</div>
+			<div class="background-svg-3">
+				<svg width="300" height="322" viewBox="0 0 300 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.8">
+					<ellipse cx="170.671" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					</g>
+					</svg>
+					
+			</div>
+			
+			<div class="row text-alignment " style="padding-bottom: 50px;">
+				<div class="col-lg-12 projects-head">
+					<h1>Projects</h1>
+				</div>
+				<!-- <div class="col-lg-4  text-right">
+					<button>Front-end</button>
+				</div>
+				<div class="col-lg-4">
+					<button>Full-stack</button>
+				</div>
+				<div class="col-lg-4 text-left">
+					<button>NPM Packages</button>
+				</div> -->
+			</div>
+			<div class="row p-div">
+				<div class="col-lg-4 col-sm-6">
+				  <div class="cards-projects1">
+					  <img src="img/pana.png" height="100px">
+					<div class="card-h">
+					</div>
+					<div class="card-foot ">
+					  <h5 class="hover-color card-desc">Covid-19 Visualizer</h5>
+					  <p class="para-hover card-desc-f">Frame-work : angular
+						<br>
+						Language : javascript
+					  </p>
+					  <div class="Button-position">
+						  <a class="project-button text-dec-off"  href="https://covid19-visualizer-rohan.netlify.app/" target="_blank">Live demo</a>
+						  <a class="project-button text-dec-off"  href=" https://github.com/HR1Aventum/Covid19-visualizer" target="_blank">Github</a>
 
-    <section>
-    <div style="position: relative;">
-      <div class="marker"><img src="img/gridicons_location.png" alt=""></div>
-      <div >
-        <p class="Find-me">where you can find me ?</p>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <ul class="contact-pl">
-              <li><a href="https://www.linkedin.com/in/rohan-arya-b93591110/" target="_blank"><img src="img/link.png" alt="">linkedin.com/in/rohan-arya-b93591110</a></li>
-              <li><a href="mailto: rohan.arya237@gmail.com"><img src="img/gmail-1.png" alt="">rohan.arya237@gmail.com</a></li>
-              <li><a href="https://github.com/rohan-arya-w" target="_blank"><img src="img/github-ic.png" alt="">rohan-arya-w </a></li>
-              <li><a href=""><img src="img/ic-call.png" alt=""></a>98299-00737</li>
-            </ul>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="cards-projects1">
+					  <img src="img/amico.png" width="100px" height="100px">
+					<div class="card-h">
+					 
+					</div>
+					<div class="card-foot">
+					  <h5  class="hover-color card-desc">Music-player</h5>
+					  <p class="para-hover card-desc-f">Frame-work : angular
+						<br>
+						Language : javascript
+					  </p>
+					  <div class="Button-position">
+						  <a class="project-button text-dec-off" href="https://music-player-rohan.netlify.app/" target="_blank">Live demo</a>
+						  <a class="project-button text-dec-off" href="https://github.com/HR1Aventum/Music_player" target="_blank">Github</a>
 
-          </div>
-          
-        </div>1
-      </div>
-    </div>
-      
-      
-    </section>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="cards-projects1">
+						<img src="img/github.png">
+					<div class="card-h">
+					</div>
+					<div class="card-foot">
+					  <h5 class="hover-color card-desc">Github-design</h5>
+					  <p class="para-hover card-desc-f">Frame-work : Vanilla
+						<br>
+						Language : javascript
+					  </p>
+					  <div class="Button-position">
+						  <a class="project-button text-dec-off" href="https://priceless-wozniak-917654.netlify.app/" target="_blank">Live demo</a>
+						  <a class="project-button text-dec-off"  href="https://github.com/HR1Aventum/Git_hub_Design" target="_blank">Github</a>
 
-    
-  </div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="cards-projects1">
+					  <img src="img/news.png" width="100px" height="100px">
+					<div class="card-h">
+					</div>
+					<div class="card-foot">
+					  <h5 class="hover-color card-desc">News-app</h5>
+					  <p class="para-hover card-desc-f">Frame-work : vanilla js
+						<br>
+						Language : javascript
+					  </p>
+					  <div class="Button-position">
+						  <a class="project-button text-dec-off" href="https://news-flash-b.herokuapp.com/" target="_blank">Live demo</a>
+						  <a class="project-button text-dec-off" href="https://github.com/HR1Aventum/News_Api" target="_blank">Github</a>
+
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="cards-projects1">
+					  <img src="img/Weather.png" >
+					<div class="card-h">
+					</div>
+					<div class="card-foot">
+					  <h5 class="hover-color card-desc">Weather app</h5>
+					  <p class="para-hover card-desc-f">Frame-work : vanilla js <br>
+						Language : javascript</p>
+						<div class="Button-position">
+
+							<a class="project-button text-dec-off " href="https://weather-data-flag.herokuapp.com/" target="_blank">Live demo</a>
+							<a class="project-button text-dec-off" href="https://github.com/HR1Aventum/Weather_data" target="_blank">Github</a>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="cards-projects1">
+					  <img src="img/taskapp.png" width="100px" height="100px">
+					<div class="card-h">
+					</div>
+					<div class="card-foot">
+					  <h5 class="hover-color card-desc">Task-Manager app</h5>
+					  <p class="para-hover card-desc-f">Frame-work : angular <br>
+						Language : javascript</p>
+						<div class="Button-position">
+					  <a class="project-button text-dec-off" href="https://task-manager-rohan.netlify.app/" target="_blank">Live demo</a>
+					  <a class="project-button text-dec-off" href="https://github.com/HR1Aventum/Assesment-6" target="_blank">Github</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+	  
+			  </div>
+		</div>
+		</section>
+		<section id="five" style="background-color:#250849 ;">
+		 <div class="container-fluid">
+			<div class="background-svg-9">
+				<svg width="18" height="131" viewBox="0 0 18 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8.98675 114.183C11.0796 114.183 13.0867 115.014 14.5665 116.494C16.0464 117.974 16.8777 119.981 16.8777 122.074C16.8777 124.167 16.0464 126.174 14.5665 127.654C13.0867 129.133 11.0796 129.965 8.98675 129.965C6.89393 129.965 4.88682 129.133 3.40697 127.654C1.92712 126.174 1.09575 124.167 1.09575 122.074C1.09575 119.981 1.92712 117.974 3.40697 116.494C4.88682 115.014 6.89393 114.183 8.98675 114.183V114.183ZM8.98675 86.1138C10.0231 86.114 11.0494 86.3182 12.0068 86.715C12.9643 87.1117 13.8342 87.6931 14.5669 88.4261C15.2997 89.159 15.8809 90.0291 16.2774 90.9866C16.6739 91.9442 16.8779 92.9705 16.8778 94.0068C16.8776 95.0432 16.6734 96.0695 16.2766 97.0269C15.8799 97.9844 15.2985 98.8543 14.5655 99.587C13.8326 100.32 12.9625 100.901 12.005 101.297C11.0474 101.694 10.0211 101.898 8.98475 101.898C6.89166 101.898 4.88441 101.066 3.40456 99.5856C1.92471 98.1054 1.09348 96.0979 1.09375 94.0048C1.09402 91.9118 1.92575 89.9045 3.40597 88.4247C4.88619 86.9448 6.89366 86.1136 8.98675 86.1138ZM8.98675 58.0458C11.0796 58.0458 13.0867 58.8772 14.5665 60.3571C16.0464 61.8369 16.8777 63.844 16.8777 65.9368C16.8777 68.0297 16.0464 70.0368 14.5665 71.5166C13.0867 72.9965 11.0796 73.8278 8.98675 73.8278C6.89379 73.8278 4.88656 72.9964 3.40662 71.5165C1.92667 70.0365 1.09525 68.0293 1.09525 65.9363C1.09525 63.8434 1.92667 61.8362 3.40662 60.3562C4.88656 58.8763 6.89379 58.0448 8.98675 58.0448V58.0458ZM8.98675 29.9758C10.0306 29.9642 11.0663 30.1598 12.034 30.5512C13.0017 30.9427 13.8821 31.5222 14.6243 32.2563C15.3665 32.9903 15.9556 33.8643 16.3577 34.8276C16.7598 35.791 16.9667 36.8245 16.9666 37.8684C16.9664 38.9122 16.7592 39.9457 16.3569 40.9089C15.9546 41.8721 15.3652 42.746 14.6229 43.4799C13.8805 44.2137 12.9999 44.793 12.0321 45.1842C11.0643 45.5754 10.0285 45.7707 8.98475 45.7588C6.90718 45.7352 4.92275 44.8932 3.46207 43.4156C2.00139 41.938 1.18232 39.9441 1.18258 37.8664C1.18284 35.7887 2.00243 33.7949 3.46348 32.3176C4.92453 30.8404 6.90918 29.999 8.98675 29.9758V29.9758ZM8.98675 1.90784C11.0796 1.90784 13.0867 2.73921 14.5665 4.21906C16.0464 5.69891 16.8777 7.70602 16.8777 9.79884C16.8777 11.8917 16.0464 13.8988 14.5665 15.3786C13.0867 16.8585 11.0796 17.6898 8.98675 17.6898C6.89393 17.6898 4.88682 16.8585 3.40697 15.3786C1.92712 13.8988 1.09575 11.8917 1.09575 9.79884C1.09575 7.70602 1.92712 5.69891 3.40697 4.21906C4.88682 2.73921 6.89393 1.90784 8.98675 1.90784V1.90784Z" stroke="white" stroke-width="2" stroke-miterlimit="50"/>
+					</svg>		
+			</div>
+			
+			<div class="background-svg-8">
+				<svg width="300" height="322" viewBox="0 0 300 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.8">
+					<ellipse cx="170.671" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="1.83323" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="81.2727" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="170.671" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="128.335" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="43.6554" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="297.687" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="1.3156" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="255.343" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="213.007" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="319.593" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="160.714" rx="1.3156" ry="1.83323" fill="white"/>
+					<ellipse cx="85.9914" cy="240.154" rx="1.3156" ry="1.83323" fill="white"/>
+					</g>
+					</svg>
+					
+			</div>
+			 <div class="row">
+				 <div class="col-lg-6 col-sm-12">
+					 <div class="img-bg ">
+						 <img src="img/mail-page.png" alt="">
+
+					 </div>
+				 </div>
+				 <div class="col-lg-6">
+					<div class="contact-page">
+						<div class="contact-me">
+							<h1>Send me a message</h1>
+							<p>rohan.arya237@gmail.com</p>
+						</div>
+					</div>
+					<div class="contact-links">
+						<ul class="list-links">
+							<li><a href="https://github.com/rohan-arya-w" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="color: #ffffff; font-size: 60px;"></span></a></li>
+							<li><a href="https://www.linkedin.com/in/rohan-arya-b93591110/" target="_blank"><span class="iconify" data-inline="false" data-icon="brandico:linkedin-rect" style="color: #ffffff; font-size: 60px;"></span></a></li>
+							<li><a href="mailto: rohan.arya237@gmail.com" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:mail-filled" style="color: #ffffff; font-size: 70px;"></span></a></li>
+							<li><a href="https://www.instagram.com/rohan_arya0737/" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled" style="color: #ffffff; font-size: 60px;"></span></a></li>
+						</ul>
+
+					</div>
+			 </div>
+		 </div>
+	
+			<div class="linked-contact">
+				
+			</div>
+		</div>
+		
+		
+		</section>
+	</div>
 </body>
 <script type="text/javascript">
-  $("#fullpage").fullpage();
+	docSlider.init();
 </script>
-
-<script src="src/script.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-<script src="src/jquery.onepage-scroll.js"></script>
 
 </html>
